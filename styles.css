@@ -1,0 +1,370 @@
+  /********** Base styles **********/
+ {
+  box-sizing: border-box;
+ }
+* {
+  font-family:sans-serif;
+}
+body {
+   background-color:dimgrey;
+}
+h1 {
+   text-align:center;
+   color:white;
+   font-size:50px;
+   font-weight:10 ;
+}
+p  {
+   color:darkgrey;
+}
+ul {
+   list-style-type: none;
+   overflow: hidden;
+   background-color: black;
+   margin:0;
+}
+li {
+   float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  color: darkred;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.btn-group-form{
+  float: right;
+}
+.btn-group-form.active {
+  background-color: transparent;
+}
+.btn-group-form.active a:active a:hover {
+  background-color:#019;
+  color: darkblue;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  }
+ #search{
+    background-color:grey;
+    height: 20px;
+  }
+ #search::placeholder{
+    color: white;
+  }
+  .material-icons {
+   padding-top:20px;
+   width:60px;
+   height:60px;
+   color: white;
+ }
+
+ #container{
+  text-align: center;
+  margin-top:50px;
+ }
+
+.col-lg-6.col-md-12.col-s-12 {
+  text-align: center;
+  padding:75px;
+}
+
+.col-lg-4.col-md-12.col-s-12 {
+  background-color:white;
+  margin-bottom: 50px;
+  margin-top: 50px; 
+}
+
+.col-lg-12.col-md-12.col-s-12 {
+  background-color:#fff;
+  text-align: center;
+  display: inline-block;
+  padding: 20px;
+}
+.col-lg-12.col-md-12.col-s-12 p {
+  color: black;
+  text-align: center;
+}
+
+.signingithub{
+  background-color:#4CAF50; /*Green*/
+  color: #fff;
+  text-align: center;
+  width:250px;
+  min-height:30px ;
+ }
+.signingithub2{
+   background-color: transparent;
+ }
+.middle-text1{
+  font-size:20px;
+  color: white;
+}
+.middle-text2{
+  font-size:10px;
+  color: darkblue;
+}
+.middle{
+  color: black;
+}
+form{
+  padding:30px;
+  margin:10px;
+}
+form span{
+  font-size:10px;
+}
+#formbar{
+  padding-left:10px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 14px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight:10 ;
+}
+.button1 {
+  background-color: #fff; 
+  color:darkblue; 
+  border: 2px solid #008CBA;
+  -webkit-text-stroke:thin;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    ul {
+    padding-left:50px;
+    padding-right:50px ;
+    }
+    .signingithub2{
+      display: none;  
+    }
+    i.material-icons {
+    display: none;
+    }
+
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    /*border: 1px solid black;*/
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+   .test {
+    display: none;
+    }
+    .signingithub2 {
+     display: none;  
+     }
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+   .test {
+    display: none;
+    }
+    form {
+    display: none;
+    }
+    .signingithub2{
+      text-align: center; 
+      background-color: #4CAF50;
+      border-radius:5px;
+    }
+    .col-lg-6.col-md-12.col-s-12{
+      text-align: center;
+      background-color:transparent;
+    }
+    .col-lg-4.col-md-12.col-s-12{
+      text-align: center;
+      background-color:transparent;
+    }
+    
+  .col-s-1, .col-s-2, .col-s-3, .col-s-4, .col-s-5, .col-s-6, .col-s-7, .col-s-8, .col-s-9, .col-s-10, 
+  .col-s-11, .col-s-12 {
+    float: left;
+  }
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 74.99%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+/********** Extra-small devices only **********/
+/*@media (max-width: 576px) {
+  .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, 
+  .col-xs-11, .col-xs-12 {
+    float: left;*/
+    /*border: 1px solid black;*/
+  }
+  /*.col-xs-1 {
+    width: 8.33%;
+  }
+  .col-xs-2 {
+    width: 16.66%;
+  }
+  .col-xs-3 {
+    width: 25%;
+  }
+  .col-xs-4 {
+    width: 33.33%;
+  }
+  .col-xs-5 {
+    width: 41.66%;
+  }
+  .col-xs-6 {
+    width: 50%;
+  }
+  .col-xs-7 {
+    width: 58.33%;
+  }
+  .col-xs-8 {
+    width: 66.66%;
+  }
+  .col-xs-9 {
+    width: 74.99%;
+  }
+  .col-xs-10 {
+    width: 83.33%;
+  }
+  .col-xs-11 {
+    width: 91.66%;
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+}*/
+ 
